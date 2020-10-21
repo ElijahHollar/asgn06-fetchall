@@ -40,4 +40,6 @@
 
   $database = db_connect();
 
+  Bird::set_database($database);
+
 ?>
